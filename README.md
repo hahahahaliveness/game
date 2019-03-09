@@ -15,6 +15,7 @@ Testing: 软链到解压后的test数据集目录
 Training：软链到解压后的train数据集目录
 Val：软链到解压后的validation数据集目录
 
+cd pytorch_model/config/pytorch.update.base.20190308/
 train: python3 train.py
 val: python3 torch_inference_gpu.py val  
 选出auc最高模型->bestModelPath, 执行以下命令排行第一的那个epoch的路径：python3 eval_val.py train_log/eval/*.json --threshold 1 --limit 20 
