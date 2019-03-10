@@ -21,3 +21,6 @@ test：python3 torch_inference_gpu.py test bestModelPath
 
 eval后的结果json转化为标准结果result.txt：
     python3 get_result.py train_log/eval/xx.json 0.5
+
+game/result/ 目录中存的是提交的结果
+game/train_log/best_model/。存的是提交的结果对应的模型
