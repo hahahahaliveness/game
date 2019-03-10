@@ -12,7 +12,7 @@
 	cv2
 
 将解压后的test数据集目录Testing 和 解压后的train数据集目录Training 和 解压后的validation数据集目录Val 软链到pytorch_model/config/pytorch.update.base.20190308/ 目录中
-
+下载数据到dataset，百度云盘地址:https://pan.baidu.com/s/1nDl0ixWys4qLdiD4diaxPA
 cd pytorch_model/config/pytorch.update.base.20190308/
 train: python3 train.py (imagenet初始化)
 val: python3 torch_inference_gpu.py val  
